@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+  <!-- Don't Need CSS reset since using bootstrap -->
+<!--   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1><span class="badge badge-secondary">Crystal Collector</span></h1>
+
+    <div class="row">
+      <p> You will be given a random number at the start of the game. </p>
+      <br>
+      <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+      <br>
+      <p> You will win the game by matching your total score to a random number, you lose the game if your total score goes above the random number. </p>
+      <br>
+      <p> The value of each crystal is hidden from you until you click on it. </p>
+      <br>
+      <p> Each time when the game starts, the game will change the values of each crystal. </p>
+    </div>
+
+    <div class="row">
+      
+      <div class="col-3 randomNumBox">
+      <span id="ranNum"> </span>
+      </div>
+
+      <div class="col-3 winsLossBox">
+      <p> Wins: </p> <span id="playerWins"> </span>
+      <br>
+      <p> Losses: </p> <span id="compWins"> </span>
+      </div>
+
+    </div>
+
+    <div class="row crystals">
+
+      <div class="col-3 blueCrystal">
+        <img src="assets/images/blue.jpg" alt="Blue Crystal" style="width:128px;height:128px;">
+      </div>
+
+      <div class="col-3 orangeCrystal">
+        <img src="assets/images/orange.jpg" alt="Orange Crystal" style="width:128px;height:128px;">
+      </div>
+
+      <div class="col-3 purpleCrystal">
+        <img src="assets/images/purple.jpg" alt="Purple Crystal" style="width:128px;height:128px;">
+      </div>
+
+      <div class="col-3 redCrystal">
+        <img src="assets/images/red.jpg" alt="Red Crystal" style="width:128px;height:128px;">
+      </div>
+     
+    </div>
+
+    <div class="row">
+      <p> Your total score is: </p>
+    </div>
+
+    <div class="row scoreBox">
+  
+    </div>
+
+  </div>
+
+<script src="assets/javascript/game.js"></script>
+    
+</body>
