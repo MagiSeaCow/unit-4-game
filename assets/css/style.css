@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/crystal-BG.jpg");
+    background-color: blueviolet;
+}
+
+#description {
+    background-color: bisque;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+#randomNumBox {
+    background-color: firebrick;
+    margin: 10px;
+    font-size: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#winsLossBox {
+    background-color: rgb(23, 87, 87);
+    margin: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.crystals {
+    background-color: white;
+    margin: 10px;
+
+}
+
+#scoreMsg {
+    background-color: fuchsia;
+    margin: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#scoreBox {
+    background-color: fuchsia;
+    margin: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}

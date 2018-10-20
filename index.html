@@ -15,9 +15,9 @@
 
   <div class="container">
 
-    <h1><span class="badge badge-secondary">Crystal Collector</span></h1>
+    <h1><span class="badge badge-danger">Crystal Collector</span></h1>
 
-    <div class="row">
+    <div class="row" id="description">
       <p> You will be given a random number at the start of the game. </p>
       <br>
       <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
@@ -31,43 +31,43 @@
 
     <div class="row">
       
-      <div class="col-3 randomNumBox">
-      <span id="ranNum"> </span>
+      <div class="col-3" id="randomNumBox">
+      <span id="randomNum"> </span>
       </div>
 
-      <div class="col-3 winsLossBox">
-      <p> Wins: </p> <span id="playerWins"> </span>
+      <div class="col-3" id="winsLossBox">
+      <p> Wins: </p> <span id="wins"> </span>
       <br>
-      <p> Losses: </p> <span id="compWins"> </span>
+      <p> Losses: </p> <span id="losses"> </span>
       </div>
 
     </div>
 
     <div class="row crystals">
 
-      <div class="col-3 blueCrystal">
-        <img src="assets/images/blue.jpg" alt="Blue Crystal" style="width:128px;height:128px;">
+      <div class="col" id="amberCrystal">
+        <img src="assets/images/amber.jpg" alt="Amber Crystal" style="width:128px;height:128px;">
       </div>
 
-      <div class="col-3 orangeCrystal">
-        <img src="assets/images/orange.jpg" alt="Orange Crystal" style="width:128px;height:128px;">
+      <div class="col" id="amethystCrystal">
+        <img src="assets/images/amethyst.jpg" alt="Amethyst Crystal" style="width:128px;height:128px;">
       </div>
 
-      <div class="col-3 purpleCrystal">
-        <img src="assets/images/purple.jpg" alt="Purple Crystal" style="width:128px;height:128px;">
+      <div class="col" id="diamondCrystal">
+        <img src="assets/images/diamond.jpg" alt="Diamond Crystal" style="width:128px;height:128px;">
       </div>
 
-      <div class="col-3 redCrystal">
-        <img src="assets/images/red.jpg" alt="Red Crystal" style="width:128px;height:128px;">
+      <div class="col" id="emeraldCrystal">
+        <img src="assets/images/emerald.jpg" alt="Emerald Crystal" style="width:128px;height:128px;">
       </div>
      
     </div>
 
-    <div class="row">
+    <div class="row" id="scoreMsg">
       <p> Your total score is: </p>
     </div>
 
-    <div class="row scoreBox">
+    <div class="row" id="scoreBox">
   
     </div>
 
