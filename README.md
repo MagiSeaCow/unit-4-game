@@ -17,4 +17,6 @@ The purpose of the project is to practice implementation of jQuery to create a f
 
 The game starts as soon as it is loaded in the browser.
 
+Launch game: https://magiseacow.github.io/unit-4-game/
+
 Project is maintained by me (Xiao aka MagiSeaCow).
